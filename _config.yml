@@ -23,7 +23,7 @@ roles:
 front_page_news: 8
 
 # Base pathname for links.
-base: /Lab_WebPage
+base: "https://github.com/lukeandshuo/DeploySite"
 
 # Navigation bar links.
 navigation:
