@@ -7,9 +7,8 @@ projects:
     summary: This will never work.
 ---
 
-Our research is awesome.
+###We will put our research on here!
 
-### An Exciting project
 Read about it [here][project].
 
 [project]: project/index.html
