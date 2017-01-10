@@ -1,6 +1,6 @@
 zheng:
     display_name: "Zheng Liu"
-    webpage: "https://scholar.google.com/citations?user=c_WcJWEAAAAJs"
+    webpage: "https://people.ok.ubc.ca/zliu/"
     github: profx
     role: faculty
     bio: |
@@ -22,7 +22,7 @@ huan:
     img_path: /img/people/huanliu.jpg
 dalin:
     display_name: "Dalin Zhang"
-    webpage: "https://scholar.google.com/citations?user=3JMy3dwAAAAJ&hl=zh-CN"
+    webpage: "https://scholar.google.ca/citations?view_op=list_works&hl=en&user=_Y4T7DEAAAAJ"
     role: grad
     bio: |
          Research Assistant 
