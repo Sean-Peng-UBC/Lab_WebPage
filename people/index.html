@@ -25,7 +25,7 @@ title: People
         {% if person.webpage %}
         <a href = "{{person.webpage}}">
         {% endif %}
-        <img class = "img-circle profile" src="{{person.img_path}}">
+        <img class = "img-circle profile" src="{{site.base}}{{person.img_path}}">
         {% if person.webpage %}
         </a>
         {% endif %}

@@ -5,11 +5,11 @@ profx:
     role: faculty
     bio: |
         Associate Professor 
-    img_path: {{site.base}}/img/people/zhengliu.png
+    img_path: /img/people/zhengliu.png
 melody:
     display_name: "Shuo Liu"
     webpage: "http://lukeandshuo.github.io"
     role: grad
     bio: |
         Research Assistant 
-    img_path: {{site.base}}/img/people/shuoliu.jpg
+    img_path: /img/people/shuoliu.jpg
