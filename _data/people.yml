@@ -13,15 +13,14 @@ melody:
     bio: |
         Research Assistant 
     img_path: /img/people/shuoliu.jpg
-
+melody:
     display_name: "Huan Liu"
     webpage: "https://scholar.google.com/citations?user=3JMy3dwAAAAJ&hl=zh-CN"
     role: grad
     bio: |
         Visiting Intenational Research Student 
     img_path: /img/people/huanliu.jpg
-
-
+melody:
     display_name: "Dalin Zhang"
     webpage: "https://scholar.google.com/citations?user=3JMy3dwAAAAJ&hl=zh-CN"
     role: grad
