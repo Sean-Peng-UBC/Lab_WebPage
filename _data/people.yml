@@ -10,7 +10,7 @@ zheng:
 shuo:
     display_name: "Shuo Liu"
     webpage: "http://lukeandshuo.github.io"
-    role: grad
+    role: master
     title: Research Assistant
     bio: |
         Research Assistant 
@@ -18,7 +18,7 @@ shuo:
 huan:
     display_name: "Huan Liu"
     webpage: "https://scholar.google.com/citations?user=3JMy3dwAAAAJ&hl=zh-CN"
-    role: grad
+    role: phd
     title: Visiting Intenational Research Student 
     bio: |
         Visiting Intenational Research Student 
@@ -26,7 +26,7 @@ huan:
 dalin:
     display_name: "Dalin Zhang"
     webpage: "https://scholar.google.ca/citations?view_op=list_works&hl=en&user=_Y4T7DEAAAAJ"
-    role: grad
+    role: phd
     title: Research Assistant 
     bio: |
          Research Assistant 
@@ -35,8 +35,18 @@ dalin:
 junchi:
     display_name: "Junchi Bin"
     webpage: "http://rpubs.com/jb2849/240930"
-    role: grad
+    role: master
     title: Research Assistant
     bio: |
          Research Assistant 
     img_path: /img/people/junchibin.jpg
+
+
+fangshi:
+    display_name: "Fang Shi"
+    webpage: "https://www.linkedin.com/in/fang-shi-658578107?trk=hp-identity-photo"
+    role: master
+    title: Research Assistant
+    bio: |
+         Research Assistant 
+    img_path: /img/people/fangshi.jpg
