@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Research Projects
+layout: page
+title: Research
 projects:
   - link: project/
-    name: An Exciting project
+    name:  projects
     summary: This will never work.
 ---
 

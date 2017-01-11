@@ -1,5 +1,10 @@
+title:            ISDPRL
+school:           UBCO Okanagan
+description:      "Intelligent Sensing, Diagnostic and Prognostic Research Lab"
+logo:             UBC_Logo.png
+logo_white:       UBC_Logo_White.png
 name: Awesome Research Group
-url: http://awesome.example.edu
+url: " "
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -28,14 +33,14 @@ base: " "
 # url: "http://lukeandshuo.github.io"
 
 # Navigation bar links.
-navigation:
+links:
     - title: Home
-      link: /
+      url: /
     - title: People
-      link: /people/
+      url: /people/
     - title: Research
-      link: /research/
+      url: /research/
     - title: Publications
-      link: /publications/
+      url: /publications/
     - title: Code
-      link: /code/
+      url: /code/

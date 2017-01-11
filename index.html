@@ -1,15 +1,16 @@
 ---
-layout: default
+layout: home
 title: Home
 notitle: true
 ---
-<div class="jumbotron">
+<!-- <div class="jumbotron">
   <p>
     The <b>Intelligent Sensing, Diagnostic and Prognostic Research Lab</b> at <b>University of British Columbia Okanagan</b> does all sorts of
     research. Here is a place where we tell you exactly what that is!
   </p>
-</div>
+</div> -->
 
+<!-- 
 <h2><i class="fa fa-newspaper-o" aria-hidden="true"></i> News</h2>
 <ul class="news list-unstyled">
 {% for post in site.posts limit: site.front_page_news %}
@@ -28,57 +29,42 @@ notitle: true
 </ul>
 {% assign numposts = site.posts | size %}
 {% if numposts >= site.front_page_news %}
-<p><a href="{{ site.base }}/blog/">Older posts&hellip;</a></p>
-{% endif %}
+<p><a href="{{ site.url }}/blog/">Older posts&hellip;</a></p>
+{% endif %} -->
+
+  {% for post in site.posts %}
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="{{ post.date | date_to_xmlschema }}">
+                    <span class="day">
+                        {{ post.date | date: "%d" }}
+                    </span>
+                    <span class="month-year">
+                        {{ post.date | date: "%B %Y" }}
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="{{ site.url }}{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>{{ post.content | strip_html | truncatewords:100 }}</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+                    
+                </div>
+            
+        </div>
+    </article>
+  {% endfor %}  
 
 
-<h2><i class="fa fa-users" aria-hidden="true"></i>     People</h2>
-<div class = "row">
-{% for role in site.roles %}
-<div class = "col-xs-4">
-  <h3>
-  <i 
-  {% if role.name == "Graduate Students" %}
-  class = "fa fa-graduation-cap"
-  {% else %}
-  class = "fa fa-user" 
-  {%endif%}
-  aria-hidden = "true">
-  </i>
-  {{ role.name }}
-  </h3>
-  <ul class="people">
-  {% for item in site.data.people %}
-    <li>
-    {% assign person = item[1] %}
-    {% if person.role == role.key %}
-        {% if person.img_path %}
-        {% if person.webpage %}
-        <a href = "{{person.webpage}}">
-        {% endif %}
-        <img class = "img-circle profile" src="{{site.base}}/{{person.img_path}}">
-        {% if person.webpage %}
-        </a>
-        {% endif %}
-        {% endif %}
-      <div class = "person">
-        {% if person.webpage %}
-        <a href="{{ person.webpage |escape }}">
-        {% endif %}
-          <h4>{{ person.display_name }}</h4>
-        {% if person.webpage %}
-        </a>
-        {% endif %}
-        <p>
-        {% if person.bio %}
-          {{ person.bio | markdownify }}
-        {% endif %}
-        </p>        
-      </div>
-    {% endif %}
-    </li>
-  {% endfor %}
-  </ul>
-  </div>
-{% endfor %}
-</div>

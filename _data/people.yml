@@ -3,6 +3,7 @@ zheng:
     webpage: "https://people.ok.ubc.ca/zliu/"
     github: profx
     role: faculty
+    title:  Associate Professor
     bio: |
         Associate Professor 
     img_path: /img/people/zhengliu.png
@@ -10,6 +11,7 @@ shuo:
     display_name: "Shuo Liu"
     webpage: "http://lukeandshuo.github.io"
     role: grad
+    title: Research Assistant
     bio: |
         Research Assistant 
     img_path: /img/people/shuoliu.jpg
@@ -17,13 +19,24 @@ huan:
     display_name: "Huan Liu"
     webpage: "https://scholar.google.com/citations?user=3JMy3dwAAAAJ&hl=zh-CN"
     role: grad
+    title: Visiting Intenational Research Student 
     bio: |
         Visiting Intenational Research Student 
-    img_path: /img/people/huanliu.jpg
+    img_path: /img/people/huanliu.png
 dalin:
     display_name: "Dalin Zhang"
     webpage: "https://scholar.google.ca/citations?view_op=list_works&hl=en&user=_Y4T7DEAAAAJ"
     role: grad
+    title: Research Assistant 
     bio: |
          Research Assistant 
     img_path: /img/people/dalinzhang.jpg
+
+junchi:
+    display_name: "Junchi Bin"
+    webpage: "http://rpubs.com/jb2849/240930"
+    role: grad
+    title: Research Assistant
+    bio: |
+         Research Assistant 
+    img_path: /img/people/junchibin.jpg
