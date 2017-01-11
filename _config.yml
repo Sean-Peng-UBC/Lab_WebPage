@@ -4,7 +4,7 @@ description:      "Intelligent Sensing, Diagnostic and Prognostic Research Lab"
 logo:             UBC_Logo.png
 logo_white:       UBC_Logo_White.png
 name: Awesome Research Group
-url: " "
+url: "https://lukeandshuo.github.io/Lab_WebPage/"
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
