@@ -4,8 +4,8 @@ description:      "Intelligent Sensing, Diagnostic and Prognostic Research Lab"
 logo:             UBC_Logo.png
 logo_white:       UBC_Logo_White.png
 name: Awesome Research Group
-# url: https://lukeandshuo.github.io/Lab_WebPage
-url: " "
+url: https://lukeandshuo.github.io/Lab_WebPage
+# url: " "
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
 # use this library to parse Markdown
