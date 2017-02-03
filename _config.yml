@@ -22,7 +22,7 @@ permalink: /blog/:year/:month/:day/:title.html
 # Sections on the "people" page.
 roles:
     - {key: faculty, name: Faculty}
-    - {key: master, name: Grad Candidate}
+    - {key: master, name: Graduate Student}
     - {key: phd, name: Phd Candidate}
 
 # Number of news stories on the front page.
