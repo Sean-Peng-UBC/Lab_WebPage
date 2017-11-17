@@ -9,29 +9,12 @@ zheng:
     img_path: /img/people/zhengliu.png
 shuo:
     display_name: "Shuo Liu"
-    webpage: "http://lukeandshuo.github.io"
+    webpage: "https://lukeandshuo.github.io/"
     role: master
     title: Research Assistant
     bio: |
         Research Assistant 
     img_path: /img/people/shuoliu.jpg
-huan:
-    display_name: "Huan Liu"
-    webpage: "https://scholar.google.com/citations?user=3JMy3dwAAAAJ&hl=zh-CN"
-    role: phd
-    title: Visiting Student 
-    bio: |
-        Visiting Intenational Research Student 
-    img_path: /img/people/huanliu.png
-dalin:
-    display_name: "Dalin Zhang"
-    webpage: "https://scholar.google.ca/citations?view_op=list_works&hl=en&user=_Y4T7DEAAAAJ"
-    role: phd
-    title: Research Assistant 
-    bio: |
-         Research Assistant 
-    img_path: /img/people/dalinzhang.jpg
-
 junchi:
     display_name: "Junchi Bin"
     webpage: "https://jb2849.github.io/"
@@ -40,8 +23,6 @@ junchi:
     bio: |
          Research Assistant 
     img_path: /img/people/junchibin.jpg
-
-
 fangshi:
     display_name: "Fang Shi"
     webpage: "https://www.linkedin.com/in/fang-shi-658578107?trk=hp-identity-photo"
@@ -50,3 +31,44 @@ fangshi:
     bio: |
          Research Assistant 
     img_path: /img/people/fangshi.jpg
+chengkai:
+    display_name: "Chengkai Zhang"
+    webpage: 
+    role: master
+    title: Research Assistant
+    bio: |
+         Research Assistant 
+    img_path: /img/people/chengkai.jpg
+uchenna:
+    display_name: "Uchenna Anyaoha"
+    webpage: 
+    role: master
+    title: Research Assistant
+    bio: |
+         Research Assistant 
+    img_path: /img/people/uchenna.jpg
+
+xiang:
+    display_name: "Xiang Peng"
+    webpage: "https://sean-peng-ubc.github.io/"
+    role: phd
+    title: Research Assistant 
+    bio: |
+         Research Assistant 
+    img_path: /img/people/xiang.jpg
+huan:
+    display_name: "Huan Liu"
+    webpage: "https://scholar.google.com/citations?user=3JMy3dwAAAAJ&hl=zh-CN"
+    role: phd
+    title: Visiting Student 
+    bio: |
+        Visiting Intenational Research Student 
+    img_path: /img/people/huanliu.png
+qiwen:
+    display_name: "Qiwen Jin"
+    webpage: 
+    role: phd
+    title: Visiting Student 
+    bio: |
+         Visiting Intenational Research Student 
+    img_path: /img/people/qiwen.jpg

@@ -30,6 +30,8 @@ def _venue_type(entry):
         venuetype = 'Chapter in '
     elif entry.type == 'techreport':
         venuetype = 'Technical Report '
+    elif entry.type == 'conference':
+        venuetype = 'Conference '        
     elif entry.type == 'phdthesis':
         venuetype = 'Ph.D. thesis, {}'.format(entry.fields['school'])
     return venuetype
@@ -57,8 +59,8 @@ def _venue(entry):
         venue = '{0}, {1}'.format(f['number'], f['institution'])
     elif entry.type == 'phdthesis':
         venue = ''
-    else:
-        venue = 'Unknown venue (type={})'.format(entry.type)
+    elif entry.type == 'conference':
+        venue = '{0}'.format(f['address'])
     return venue
 
 def _title(entry):
